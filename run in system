@@ -1,0 +1,11 @@
+1.Install the composer
+sudo apt install composer
+
+2.make .env file from .env example
+  -change your database name
+  
+3.Generate key
+php artisan key:generate
+
+4.Run file.
+php artisan serve
