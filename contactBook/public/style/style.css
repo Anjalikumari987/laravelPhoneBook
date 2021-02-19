@@ -1,0 +1,40 @@
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+.row.content {height: 1500px}
+          
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+#contactUsers {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+margin-top: 5%;
+margin-left:5%;
+}
+
+#contactUsers td, #customers th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#contactUsers tr:nth-child(even){background-color: #f2f2f2;}
+
+#contactUsers tr:hover {background-color: #ddd;}
+
+#contactUsers th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #5542ff;
+color: white;
+}
+
+
